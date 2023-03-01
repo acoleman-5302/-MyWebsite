@@ -25,6 +25,7 @@ $("button").click(function(){
                 a.classList.add("dropdown-item");
                 a.appendChild(linkText);
                 a.href= myRepos[i].html_url ;
+                a.target = "_blank";
                 listgroup.appendChild(a);
             }
             
